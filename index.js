@@ -1,3 +1,6 @@
+
+
+
 setInterval(() => {
     d =new Date();
     htime = d.getHours();
@@ -11,5 +14,13 @@ setInterval(() => {
     minute.style.transform = `rotate(${mrotation}deg)`;
     second.style.transform = `rotate(${srotation}deg)`;
 
-    
+
+
 }, 1000);
+
+
+
+// var audio = new Audio("sounds/clock.mp3");
+// audio.play();
+// }
+// audio();
